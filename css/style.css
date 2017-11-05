@@ -1,0 +1,87 @@
+@font-face 
+{
+  font-family: Manus_Smooth;
+  src:url('../fonts/Manus_Smooth.ttf');
+}
+@font-face 
+{
+  font-family: Aleo-Regular;
+  src:url('../fonts/Aleo-Regular.otf');
+}
+body {
+    font-family: Aleo-Regular;
+}
+#search_artist {
+  font-family: Aleo-Regular;
+  padding: 25px;
+}
+#search_artist .wrapper {
+  margin: 0 auto;
+}
+#search_artist .wrapper h1 {
+  font-family: Aleo-Regular;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0;
+  color: #00BCD4;
+
+}
+
+#input_search {
+  font-family: Aleo-Regular;
+  width: 100%;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  border: 1px solid #d6d6d6;
+  padding: 10px 30px;
+  font-size: 21px;
+  font-weight: 300;
+}
+input:focus {
+  outline:none;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+#album_list_container {
+  margin-top: 60px;
+}
+#album_list_container .album_item .item_thumb {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+#album_list_container .album_item {
+  text-align: center;
+  padding: 20px 0;
+  background: #f7f7f7;
+}
+#album_list_container .album_item .item_title {
+  padding: 20px 0 0;
+  text-align: center;
+  font-family: Manus_Smooth;
+  font-size: 30px;
+}
+#album_list_container .album_item .item_price {
+  text-align: center;
+  font-size: 14px;
+}
+#album_list_container .album_item a {
+  background: #2196f3;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#notmatch {
+  display: none;
+  text-align: center;
+}
